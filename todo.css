@@ -1,0 +1,45 @@
+body {
+    background-color:  #eaf6fd;
+}
+h1,
+p{
+    text-align: center;
+}
+.form{
+    width: 300px;
+    height: 100px;
+}
+.submit-btn{
+    display: block;
+    margin: 0 auto;
+}
+.add-btn{
+    background-color: #91d3ea;
+}
+.del-btn{
+    background-color: #ee869a;
+}
+.edit-btn{
+    background-color: #ccdc43;
+}
+.update-btn{
+    background-color: #f8b73d;
+}
+
+#add{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#decision{
+    text-align: center;
+}
+.group{
+    text-align: center;
+    background-color: #fff;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}

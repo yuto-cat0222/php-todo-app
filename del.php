@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="todo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>データベース削除</title>
 </head>
@@ -20,7 +21,7 @@
         $sto = $db->prepare('DELETE FROM todo_list WHERE id=:id');
         $sto->bindParam(':id', $del, PDO::PARAM_INT);
         if($sto->execute()) {
-            print("<p>データを削除しました。TODOリストに戻ります。</p>");
+            print("<p class='group'>データを削除しました。TODOリストに戻ります。</p>");
             header("refresh:2;url=todo.php");
         } else {
             print("<p>SQL文実行時にエラーが発生しました</p>");
